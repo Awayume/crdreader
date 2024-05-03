@@ -20,7 +20,7 @@ int main() {
                 printf("%s ERROR_NO_SUCH_LOGON_SESSION (0x520)\n", message);
             case 1004:
                 printf("%s ERROR_INVALID_FLAGS (0x3EC)\n", message);
-            defaut:
+            default:
                 printf("%sUnknown error\n", message);
         }
         return 255;
